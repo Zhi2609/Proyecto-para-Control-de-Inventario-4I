@@ -1,0 +1,55 @@
+body {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+
+#mensaje {
+  position: fixed;
+  top: 15px;
+  right: 20px;
+  padding: 10px 18px;
+  border-radius: 4px;
+  font-weight: bold;
+  display: none;
+}
+
+#mensaje.exito {
+  color: white;
+  background-color: #27ae60;
+  display: block;
+}
+
+#mensaje.error {
+  color: white;
+  background-color: #c0392b;
+  display: block;
+}
+
+.inventario {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.inventario input {
+  display: block;
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 8px;
+  box-sizing: border-box;
+}
+
+.inventario button {
+  padding: 8px 20px;
+  cursor: pointer;
+}
+
+.producto {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-top: 10px;
+  border-radius: 4px;
+}
+
+.producto p {
+  margin: 3px 0;
+}

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Inventario</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="mensaje"></div>
+
+    <div class="inventario">
+      <h2>Agregar Producto</h2>
+      <input type="text" id="codigo" placeholder="Código" />
+      <input type="text" id="nombre" placeholder="Nombre" />
+      <input type="text" id="categoria" placeholder="Categoría" />
+      <input type="number" id="cantidad" placeholder="Cantidad" />
+      <input type="number" id="costo" placeholder="Costo" step="0.01" />
+      <button id="btnAgregar">Agregar</button>
+
+      <h2>Productos</h2>
+      <div id="listaProductos"></div>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
